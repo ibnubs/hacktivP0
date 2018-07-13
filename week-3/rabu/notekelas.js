@@ -48,7 +48,7 @@ var countries = []
 countries.push (asiaCountries, eropeCountries, americaCountries)
 
 
-for (var i=0; i)
+//for (var i=0; )
 //end contoh 3---------------------------------------
 
 
@@ -56,3 +56,75 @@ for (var i=0; i)
 var countries = [['asia'],['uk'],['us']]
 console.log(countries)
 //end contoh4
+
+
+
+/*
+
+
+function mengelompokkanAngka(arr) {
+    // you can only write your code here!
+    
+    var arrGenap = [];
+    var arrGanjil = [];
+    var arrMulTree= [];
+    
+    
+    //cari genap
+    var tampung = []
+    for (var i=0; i<arr.length; i++){
+        if (arr[i] % 2 === 0){
+        arrGenap.push([arr[i]])
+        } 
+        
+    }
+    console.log (arrGenap)
+
+    //cari ganjil
+    for (var j=1; j<arr.length; j++){
+        if (arr[j]%2 !==0){
+            arrGanjil.push([arr[j]])
+        }
+    }
+    console.log(arrGanjil)
+
+
+    /*buat test case baru -- gak berhasil
+    for (var i=0; i<arr.length; i++){
+        if (arr[i] % 2 === 0){
+        arrGenap.push([arr[i]])
+        } 
+        
+    } 
+    var tamp = []
+    for (var j=1; j<arr.length; j++){
+        if (arr[j]%2 !==0){
+            arrGanjil.push([arr[j]])
+        }
+
+    } return tamp   
+    */
+
+    /*case baru --> gagal
+
+    for (var i=0; i<arr.length; i++){
+        for (var j=1; j<arr.length; j++){
+            if (arr[j]%2 !==0){
+                arrGanjil.push([arr[j]])
+                arrGanjil []; break;
+            } else arrGenap.push([arr[i]])
+        }       arrGenap []; break
+    }
+
+    */
+
+      
+/*  
+  // TEST CASES
+  console.log(mengelompokkanAngka([2, 4, 6])); // [ [2, 4], [], [6] ]
+  console.log(mengelompokkanAngka([1, 2, 3, 4, 5, 6, 7, 8, 9])); // [ [ 2, 4, 8 ], [ 1, 5, 7 ], [ 3, 6, 9 ] ]
+  console.log(mengelompokkanAngka([100, 151, 122, 99, 111])); // [ [ 100, 122 ], [ 151 ], [ 99, 111 ] ]
+  console.log(mengelompokkanAngka([])); // [ [], [], [] ]
+
+
+*/

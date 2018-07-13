@@ -4,7 +4,7 @@
 function hitungJumlahKata(kalimat) {
     // you can only write your code here!
 
-    var kalimarArr = String.(kalimat)
+  //  var kalimarArr = String.(kalimat)
     console.log(kalimarArr)
      
   }
