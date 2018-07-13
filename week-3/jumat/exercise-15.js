@@ -22,7 +22,7 @@ Urutan hewan dalam array setiap pengelompokan huruf tidak penting.
     for(var aa = 0; aa < animals.length; aa++){
       var index = -1
     
-      for (let bb = 0; bb < kategori.length; bb++) {
+      for (var bb = 0; bb < kategori.length; bb++) {
         if (animals[aa][0] === kategori[bb]) {
           index = bb
         }
