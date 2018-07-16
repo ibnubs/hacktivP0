@@ -31,20 +31,39 @@ exercise-16 - 1 0
 exercise-17 - 1 0
 exercise-18 - 1 0
 */
+  //console.log(task)-->cek isi task
+
+function exercise (datas){
 
 
-function checklist (task) {
+  var totalTugas= 18;
+  var myNumber = 0;
+  var week2 = datas[0];
+  var week3 = datas[1];
+  var week4 = datas[2];
+  var tampung = ''
+  
+  for (var i = 0; i<totalTugas; i++){
+      
+      if (i<=totalTugas){
+        var formattedNumber = ("0" + (i+1)).slice(-2);     
+        var laporan = ' ' + week2[i] + ' ' + week3[i] + ' ' + week4[i]
 
-    //console.log(task)-->cek isi task
-
+      }
     
-    
 
+      tampung += 'exercise-' + formattedNumber + laporan + '\n';   
+    
+  } 
+   
+  return tampung
 }
 
-console.log(checklist([1,1,1,1,1,1,1,1,1,1,1,1,1,'-','-','-','-','-']));//week 2, exercise 1-13
-console.log(checklist([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,'-','-','-',])); // week 3, exercise 1-15
-console.log(checklist([1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0])); //week 4, exercise 1-18
 
+console.log(exercise([
+  [1,1,1,1,1,1,1,1,1,1,1,1,1,'-','-','-','-','-'], // week 2, exercise 1-13
+  [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,'-','-','-',], // week 3, exercise 1-15
+  [1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0] //week 4, exercise 1-18
+])); 
 
 
