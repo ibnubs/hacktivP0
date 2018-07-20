@@ -10,7 +10,10 @@ function changeMe(arr) {
       var objek = {};
       
       objek.firstName = arr[i][0];
+      console.log(objek.firstName)
+      
       objek.lastName = arr[i][1];
+      console.log(objek.lastName = arr[i][1])
       objek.gender = arr[i][2];
     
       if (year > arr[i][3]) {
