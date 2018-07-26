@@ -2,25 +2,6 @@
 
 
 function deepSum (arr) {
-    // Code disini
-    // console.log(arr)
-    // console.log('---batas---')
-    // console.log(arr[0])
-    // console.log('----batas----')
-    // console.log(arr[0][0])
-    // console.log(arr[1][0])
-    // console.log(arr[2][0])
-    // console.log('----batas----')
-    // console.log(arr[0][0][0])
-    // console.log(arr[0][0][1])
-    // console.log(arr[0][0][2])
-    // console.log('----batas----')
-    // console.log('cek = ' + arr.length)
-    // console.log('----batas----')
-    // console.log('cek = ' + arr[0].length)
-    // console.log('----batas----')
-    // console.log('cek = ' + arr[0][0].length)
-    // console.log('----batas----')
 
     var hasil = 0;
     var a = 0;
