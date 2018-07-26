@@ -3,6 +3,8 @@
 function shoppingTime(memberId, money) {
     // you can only write your code here!
 
+    
+
     var obj = {}
       obj.memberId = memberId;
       obj.money = money;

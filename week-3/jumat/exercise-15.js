@@ -15,7 +15,7 @@ Urutan hewan dalam array setiap pengelompokan huruf tidak penting.
 
 
   function groupAnimals(animals) {
-    animals.sort(function(a,b){ return a > b})
+    //animals.sort(function(a,b){ return a > b})
     var cek = []
     var kategori = []
     
